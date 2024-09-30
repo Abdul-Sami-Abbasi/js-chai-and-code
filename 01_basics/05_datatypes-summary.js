@@ -34,3 +34,24 @@ const myFuction = function(){
 }
 
 console.log(typeof id);
+
+// ********************************************(Heap and Stack) Memory *****************************************************
+
+//stack(Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "hiteshchoudharydotcom";
+let anothername = myYoutubeName;
+
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    hbl: "user@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "abdulsami@google.com";
+
+console.log(userOne.email); //abdulsami@google.com
+console.log(userTwo.email); //abdulsami@google.com
