@@ -28,3 +28,16 @@ const newString2 = gameName.slice(-8, 5);    //dul  (in slice -ve values are all
 
 console.log(newString);
 console.log(newString2);
+
+const newString3 = "     Sami     ";
+
+console.log(newString3);
+
+console.log(newString3.trim()); // reim will remove extra spaces.
+
+const url = "abdulsamiabbasi420@gmail.com";
+console.log(url.replace('420','443'));
+
+console.log(url.includes("sami")); //true
+
+console.log(gameName.split("a"));
