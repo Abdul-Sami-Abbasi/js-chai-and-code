@@ -9,14 +9,14 @@ console.log(balance.toFixed(2)); // no of decimals in answer
 
 const otherNumber = 123.5632;
 
-console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4)); // total 4 digits(3 whole and 1 decimal)
 
 const hundreds = 1000000;
 
-// console.log(hundreds.toLocaleString("en-IN"));
+// console.log(hundreds.toLocaleString("en-IN")); // it will provide commas a/c to indian currency.
 
 
-************************************Maths*********************************************
+// ************************************Maths*********************************************
 
 // console.log(Math);
 // console.log(Math.abs(-4));
